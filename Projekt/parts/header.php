@@ -6,7 +6,7 @@ use PO\Lib\Common;
 use PO\Lib\DB;
 
 $common = new Common();
-$db = new DB("localhost", 3306, "root", "", "po-2023-2024");
+$db = new DB("localhost", 3306, "root", "", "projekt");
 ?>
 <header class="site-header">
     <div class="container">

@@ -6,9 +6,9 @@ if(!isset($_SESSION['login'])) {
 
 include_once "../lib/DB.php";
 
-use PO\Lib\DB;
+use Projekt\Lib\DB;
 
-$db = new DB("localhost", 3306, "root", "", "po-2023-2024");
+$db = new DB("localhost", 3306, "root", "", "projekt");
 
 include "menu.php";
 
